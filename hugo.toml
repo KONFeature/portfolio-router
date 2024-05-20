@@ -1,0 +1,12 @@
+baseURL = 'https://nivelais.com/'
+languageCode = 'en-us'
+title = 'Nivelais - Router'
+theme = "glim"
+
+[params]
+    title = "Nivelais Router"
+    phrases = []
+    links = [
+        {name = "Quentin", description="CoFounder & CTO Frak-Labs", url = "https://quentin.nivelais.com/"},    
+        {name = "Valery", description="Consultant en gestion de centre aquatique", url = "https://valery.nivelais.com/"},
+    ] 
