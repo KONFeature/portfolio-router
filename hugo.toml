@@ -1,12 +1,15 @@
 baseURL = 'https://nivelais.com/'
 languageCode = 'en-us'
 title = 'Nivelais - Router'
-theme = "glim"
+theme = "lynx"
 
 [params]
-    title = "Nivelais Router"
-    phrases = []
-    links = [
-        {name = "Quentin", description="CoFounder & CTO Frak-Labs", url = "https://quentin.nivelais.com/"},    
-        {name = "Valery", description="Consultant en gestion de centre aquatique", url = "https://valery.nivelais.com/"},
-    ] 
+title = "Nivelais"
+
+[params.author]
+name = "Nivelais"
+headline = "Pick the Nivelais your interested in"
+links = [
+    { quentin = { href = "https://quentin.nivelais.com/", text = "Quentin", title = "CoFounder & CTO Frak-Labs" } },
+    { valery = { href = "https://valery.nivelais.com/", text = "Valery", title = "Consultant en gestion de centre aquatique" } },
+]

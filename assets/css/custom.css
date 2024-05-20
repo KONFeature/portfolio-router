@@ -1,0 +1,9 @@
+.link-quentin {
+    background: rgb(0,93,13);
+    background: linear-gradient(27deg, rgba(0,93,13,1) 0%, rgba(8,189,8,1) 100%);
+  }
+
+.link-valery {
+    background: rgb(0,26,93);
+    background: linear-gradient(158deg, rgba(0,26,93,1) 0%, rgba(8,114,189,1) 100%);
+}
